@@ -1,0 +1,43 @@
+body{
+  background:purple;
+  }
+  .parent{
+    width:100%;
+    border:5px solid #ECAD1F;
+    border-radius: 2%;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .career,.skills{
+    width:90%;
+    border:5px solid #ECAD1F;
+    border-radius: 2%;
+    margin:2%;
+    padding:3%;
+    text-align:center;
+    background:skyblue;
+  }
+  .Details{
+    width:40%;
+    border:2px solid #ECAD1F;
+    border-radius: 2%;
+    margin:2%;
+    padding:2%;
+      background:skyblue;
+  }
+  /*.skills{
+    width:40%;
+    border:2px solid #EC1F41;
+    margin:2%;
+    padding:2%;
+      background:skyblue;
+  }*/
+  input,select
+  {
+    width:90%;
+    margin:2%;
+  }
+#button{
+  font-weight:bold;
+  font-size:20px;
+}

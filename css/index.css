@@ -1,0 +1,42 @@
+body{
+  background:skyblue;
+}
+header{
+  background:#3C54A1;
+  font-weight:40px;
+  text-align:center;
+
+  }
+  img{
+    /*text-align:right;*/
+    float:right;
+    width:25%;
+    height:25%;
+  }
+  a{
+    float:right;
+  }
+  .child{
+    width:15%;
+    height:20%;
+    padding:1%;
+    margin:1%;
+    text-align:center;
+    border:6px solid  green;
+    border-radius:8%;
+    display:flex;
+    background-color:purple;
+    justify-content: space-around;
+  }
+  .child img{
+    width:100px;
+    height:100px;
+    border-radius:5%;
+
+  }
+  .link{
+    /* text-decoration: none; */
+    /* background-color: green; */
+    color:pink;
+
+  }
